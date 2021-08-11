@@ -11,9 +11,9 @@ dist: trusty
 matrix:
   include:
   - env: PYENV=3.7.0
-    arch: amd64
-  - env: PYENV=3.7.0
-    arch: arm64
+    #arch: amd64
+  #- env: PYENV=3.7.0
+    #arch: arm64
 
 script:
 - >
