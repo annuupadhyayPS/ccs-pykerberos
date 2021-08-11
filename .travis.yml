@@ -11,7 +11,10 @@ dist: trusty
 matrix:
   include:
   - env: PYENV=3.7.0
+    python: 3.7
+    arch: amd64
   - env: PYENV=3.7.0
+    python: 3.7
     arch: arm64
 
 script:
