@@ -13,6 +13,8 @@ matrix:
   - env: PYENV=2.6
   - env: PYENV=2.7.13
   - env: PYENV=3.7.0
+  - env: PYENV=3.7.0
+    arch: arm64
 
 script:
 - >
